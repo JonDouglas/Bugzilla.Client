@@ -31,7 +31,14 @@ Once you obtain that token, you then need to include it in every method. (This w
 
 This client currently has ~30 APIs that you can use with Bugzilla. Here is a brief overview of those APIs:
 
-![apis](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/68a14a2e-eb8b-4ec5-a73d-02825c485797/01.11.2017-15.22.png
+![apis](https://content.screencast.com/users/JDouglas2529/folders/Snagit/media/68a14a2e-eb8b-4ec5-a73d-02825c485797/01.11.2017-15.22.png)
+
+To start querying away, all you need to do is `new` up a `BugzillaClient` with two arguments:
+
+- `endpoint` - Which Bugzilla endpoint you want to use. Most bugzilla instances use the `.cgi` extension for their REST endpoint
+- `apiKey` - Which you generated via the instructions above
+
+EX: `var bugzillaClient = new BugzillaClient("https://bugzilla.xamarin.com/rest.cgi", "API_KEY");
 
 ## Known Issues
 
