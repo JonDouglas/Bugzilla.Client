@@ -38,7 +38,7 @@ To start querying away, all you need to do is `new` up a `BugzillaClient` with t
 - `endpoint` - Which Bugzilla endpoint you want to use. Most bugzilla instances use the `.cgi` extension for their REST endpoint
 - `apiKey` - Which you generated via the instructions above
 
-EX: `var bugzillaClient = new BugzillaClient("https://bugzilla.xamarin.com/rest.cgi", "API_KEY");
+EX: `var bugzillaClient = new BugzillaClient("https://bugzilla.xamarin.com/rest.cgi", "API_KEY");`
 
 ## Known Issues
 
